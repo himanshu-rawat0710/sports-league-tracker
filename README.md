@@ -2,13 +2,17 @@
 
 A high-performance, single-page application (SPA) built with **Next.js** to browse, filter, and view badges for global sports leagues using TheSportsDB API.
 
+**[🔗 View Live Demo](https://sports-league-tracker.vercel.app/)** | **[📂 GitHub Repository](https://github.com/himanshu-rawat0710/sports-league-tracker)**
+
+---
+
 ## 🚀 Getting Started
 
 To get the project running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-link>
+    git clone [https://github.com/himanshu-rawat0710/sports-league-tracker.git](https://github.com/himanshu-rawat0710/sports-league-tracker.git)
     cd sports-league-tracker
     ```
 
@@ -29,15 +33,15 @@ To get the project running locally, follow these steps:
 
 ## 🛠 Tech Stack
 
-* **Framework**: Next.js 15+ (App Router) 
-* **State Management & Data Fetching**: TanStack Query (React Query) 
-* **Styling**: Tailwind CSS v4 
-* **Icons**: Lucide React 
-* **Language**: TypeScript 
+* **Framework**: Next.js 15+ (App Router)
+* **State Management & Data Fetching**: TanStack Query (React Query)
+* **Styling**: Tailwind CSS v4
+* **Icons**: Lucide React
+* **Language**: TypeScript
 
 ---
 
-## 💡 Key Design Decisions 
+## 💡 Key Design Decisions
 
 ### **1. Performance: SSR + Client Hydration**
 The application uses a hybrid rendering approach. The initial list of leagues is prefetched on the server to ensure a near-instant First Contentful Paint (FCP) and better SEO. This data is then "hydrated" into the client-side cache so users experience zero loading states on the first view.
