@@ -12,7 +12,7 @@ To get the project running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/himanshu-rawat0710/sports-league-tracker.git](https://github.com/himanshu-rawat0710/sports-league-tracker.git)
+    git clone https://github.com/himanshu-rawat0710/sports-league-tracker.git
     cd sports-league-tracker
     ```
 
